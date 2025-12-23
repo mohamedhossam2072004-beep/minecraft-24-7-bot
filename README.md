@@ -29,11 +29,11 @@ The bot will connect to your server and stay online. You can control it with cha
 
 ## Configuration
 Edit the `config` object in `bot.js` to set:
-- `host`: Your server IP
-- `port`: Your server port (default: 25565)
-- `username`: The bot's Minecraft username
-- `autoNightSkip`: Set to `true` to skip night (requires permission)
-- `antiAfk`: Set to `true` to enable anti-AFK
+- `host`: kaii-bedwars.aternos.me:39714
+- `port`: 39714
+- `username`: BOT
+- `autoNightSkip`: true
+- `antiAfk`: true
 - `antiAfkInterval`: How often (ms) to perform anti-AFK actions
 
 ## Notes
