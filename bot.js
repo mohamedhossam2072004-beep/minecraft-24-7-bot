@@ -4,12 +4,12 @@ const autoAuth = require('mineflayer-auto-auth');
 
 // === CONFIGURATION ===
 const config = {
-  host: 'SERVER_IP', // <-- Set your server IP here
-  port: 25565,       // <-- Set your server port here
-  username: 'xpcraft', // <-- Set your bot username here
-  version: '1.16.5',    // Set to your server version
-  autoNightSkip: true, // Set to true to skip night if possible
-  antiAfk: true,     // Enable anti-AFK
+  host: , /kaii-bedwars.aternos.me:39714/ <-- Set your server IP here
+  port: 25565,       /39714/ <-- Set your server port here
+  username: 'xpcraft', /BOT/ <-- Set your bot username here
+  version: '1.16.5',    /1.20.4/ Set to your server version
+  autoNightSkip: true, /true/ Set to true to skip night if possible
+  antiAfk: true,     /true/ Enable anti-AFK
   antiAfkInterval: 60 * 1000, // ms between anti-AFK actions
 };
 
@@ -102,5 +102,6 @@ function createBot() {
   bot.on('kicked', (reason) => console.log('Kicked:', reason));
   bot.on('error', (err) => console.log('Error:', err));
 }
+
 
 createBot(); 
